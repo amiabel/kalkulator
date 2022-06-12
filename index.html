@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator, Amelia Zymonik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <H1>Kalkulator</H1>
+
+        <table>
+            <thead>
+            <tr>
+                <td colspan="4">
+                    <div id="display"></div>
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3"></td>
+                    <td><button data-action="clear">CL</button></td>
+                </tr>
+                <tr>
+                    <td><button data-value="7">7</button></td>
+                    <td><button data-value="8">8</button></td>
+                    <td><button data-value="9">9</button></td>
+                    <td><button data-action="divide" data-value="/">:</button></td>
+                </tr>
+                <tr>
+                    <td><button data-value="4">4</button></td>
+                    <td><button data-value="5">5</button></td>
+                    <td><button data-value="6">6</button></td>
+                    <td><button data-action="multiply" data-value="*">*</button></td>
+                </tr>
+                <tr>
+                    <td><button data-value="1">1</button></td>
+                    <td><button data-value="2">2</button></td>
+                    <td><button data-value="3">3</button></td>
+                    <td><button data-action="subtract" data-value="-">-</button></td>
+                </tr>
+                <tr>
+                    <td><button data-value="0">0</button></td>
+                    <td><button data-value=".">.</button></td>
+                    <td><button data-action="calculate">=</button></td>
+                    <td><button data-action="sum" data-value="+">+</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
